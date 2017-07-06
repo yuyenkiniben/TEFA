@@ -1,0 +1,1 @@
+web: python manage.py collectstatic --noinput ; gunicorn TEFA.wsgi --log-file -
